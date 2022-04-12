@@ -6,11 +6,14 @@
 
 ## features
 * excel-like dependency graph through pipes
-* more structured outputs (like nushell)
+* more structured outputs (like nushell & powershell)
+* no blocking by default (all jobs run with &)
 * collapsible outputs
 * `cat image.jpg`, videos, etc...
 * real-time visual piping e.g. through imagemagick
 * more interactive stuff? html?
-* autocompletion
+* [autocompletion](https://fig.io/) & discoverability
 * no pty
 * backwards compatible with common shell syntax features
+* hyperlinks
+* combine man/info pages/tldr/bro
