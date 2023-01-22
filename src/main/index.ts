@@ -43,7 +43,7 @@ app.whenReady().then(() => {
   // Set app user model id for windows
   electronApp.setAppUserModelId('com.electron')
 
-  ipcMain.handle('execCommand', execCommand)
+  ipcMain.on('execCommand', execCommand)
 
   // Default open or close DevTools by F12 in development
   // and ignore CommandOrControl + R in production.

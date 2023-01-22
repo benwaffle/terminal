@@ -3,12 +3,12 @@ import { contextBridge, ipcRenderer } from 'electron'
 import { electronAPI } from '@electron-toolkit/preload'
 
 export interface API {
-  execCommand: (cmd: string) => Promise<string>
+  execCommand: (cmd: string) => void
 }
 
 // Custom APIs for renderer
 const api: API = {
-  execCommand: (cmd) => ipcRenderer.invoke('execCommand', cmd)
+  execCommand: (cmd) => ipcRenderer.send('execCommand', cmd)
 }
 
 // Use `contextBridge` APIs to expose Electron APIs to
