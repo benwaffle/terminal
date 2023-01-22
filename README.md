@@ -1,4 +1,4 @@
-# terminal
+# lush
 
 * https://lobste.rs/s/eq2dyf/day_new_command_line_interface_shell
 * https://matklad.github.io/2019/11/16/a-better-shell.html
@@ -23,3 +23,30 @@
 * combine man/info pages/tldr/bro
 * network inspector showing all HTTP calls made, like browser dev tools
 * notes, like jupyter
+
+## Project Setup
+
+### Install
+
+```bash
+$ npm install
+```
+
+### Development
+
+```bash
+$ npm run dev
+```
+
+### Build
+
+```bash
+# For windows
+$ npm run build:win
+
+# For macOS
+$ npm run build:mac
+
+# For Linux
+$ npm run build:linux
+```
