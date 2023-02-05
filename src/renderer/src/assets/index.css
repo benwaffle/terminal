@@ -198,7 +198,7 @@ a:hover {
   outline: none;
 }
 
-.the-output {
+pre {
   margin-top: 10px;
   background: black;
   color: white;

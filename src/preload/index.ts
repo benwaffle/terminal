@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
-import { contextBridge, ipcRenderer } from 'electron'
 import { electronAPI } from '@electron-toolkit/preload'
+import { contextBridge, ipcRenderer } from 'electron'
 
 export interface API {
-  execCommand: (cmd: string) => void
+  execCommand: (id: number, cmd: string) => void
 }
 
 // Custom APIs for renderer
 const api: API = {
-  execCommand: (cmd) => ipcRenderer.send('execCommand', cmd)
+  execCommand: (id, cmd) => ipcRenderer.send('execCommand', id, cmd)
 }
 
 // Use `contextBridge` APIs to expose Electron APIs to

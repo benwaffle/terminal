@@ -1,12 +1,15 @@
-import { KeyboardEvent, useEffect, useState } from 'react'
+import { KeyboardEvent, useState } from 'react'
 
-export default function Input(): JSX.Element {
-  const [api] = useState(window.api)
+export default function Input({
+  execCommand
+}: {
+  execCommand: (input: string) => void
+}): JSX.Element {
   const [text, setText] = useState('')
 
   function keyUp(event: KeyboardEvent<HTMLInputElement>): void {
     if (event.key == 'Enter') {
-      api.execCommand(text)
+      execCommand(text)
       setText('')
     }
   }
