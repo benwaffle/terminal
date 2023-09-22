@@ -7,6 +7,7 @@
 * https://domterm.org/Features.html
 * https://github.com/oilshell/oil/wiki/Interactive-Shell
 * https://github.com/unconed/TermKit
+* https://terminal.click/
 
 ## features
 * excel-like dependency graph through pipes
