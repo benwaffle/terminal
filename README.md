@@ -24,3 +24,4 @@
 * combine man/info pages/tldr/bro
 * network inspector showing all HTTP calls made, like browser dev tools
 * notes, like jupyter
+* pagers and multiplexers shouldn't need to exist
