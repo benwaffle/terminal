@@ -5,10 +5,17 @@
 * https://matklad.github.io/2019/11/16/a-better-shell.html
 * https://www.destroyallsoftware.com/talks/a-whole-new-world
 * https://invisible-island.net/vttest/
-* https://domterm.org/Features.html
 * https://github.com/oilshell/oil/wiki/Interactive-Shell
+
+## Prior art
 * https://github.com/unconed/TermKit
 * https://terminal.click/
+* https://github.com/breuleux/terminus
+* https://domterm.org/Features.html
+* https://github.com/hoeck/schirm
+* https://warp.dev
+* https://github.com/railsware/upterm
+
 
 ## features
 * excel-like dependency graph through pipes
