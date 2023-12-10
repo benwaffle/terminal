@@ -15,6 +15,7 @@
 * https://github.com/hoeck/schirm
 * https://warp.dev
 * https://github.com/railsware/upterm
+* templeOS
 
 
 ## features
