@@ -33,3 +33,6 @@
 * network inspector showing all HTTP calls made, like browser dev tools
 * notes, like jupyter
 * pagers and multiplexers shouldn't need to exist
+
+## pictures
+![image](https://github.com/benwaffle/terminal/assets/1713819/9796cd61-8e2c-45e7-b4ae-c24ef8a10533)
