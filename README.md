@@ -16,6 +16,7 @@
 * https://warp.dev
 * https://github.com/railsware/upterm
 * templeOS
+* https://github.com/ngs-lang/ngs/wiki/UI-Design
 
 
 ## features
