@@ -6,6 +6,7 @@
 * https://www.destroyallsoftware.com/talks/a-whole-new-world
 * https://invisible-island.net/vttest/
 * https://github.com/oilshell/oil/wiki/Interactive-Shell
+* https://project-mage.org/the-power-of-structure#orgecfa2cc
 
 ## Prior art
 * https://github.com/unconed/TermKit
