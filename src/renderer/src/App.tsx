@@ -19,7 +19,7 @@ function App(): JSX.Element {
     }
 
     const id = Math.round(Math.random() * 1000000)
-    setBlocks((blocks) => [{ id, input, output: [] }, ...blocks ])
+    setBlocks((blocks) => [{ id, input, output: [] }, ...blocks])
     window.api.execCommand(id, input)
   }
 
@@ -36,9 +36,9 @@ function App(): JSX.Element {
         ...blocks.slice(0, index),
         {
           ...blocks[index],
-          output: [...blocks[index].output, decoder.decode(data)],
+          output: [...blocks[index].output, decoder.decode(data)]
         },
-        ...blocks.slice(index + 1),
+        ...blocks.slice(index + 1)
       ]
       return updated
     })
