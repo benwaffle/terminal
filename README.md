@@ -19,6 +19,7 @@
 * templeOS
 * https://github.com/ngs-lang/ngs/wiki/UI-Design
 * https://news.ycombinator.com/item?id=26530527
+* https://www.youtube.com/watch?v=dP1xVpMPn8M
 
 
 ## features
