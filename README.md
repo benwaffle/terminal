@@ -7,6 +7,7 @@
 * https://invisible-island.net/vttest/
 * https://github.com/oilshell/oil/wiki/Interactive-Shell
 * https://project-mage.org/the-power-of-structure#orgecfa2cc
+* https://taylor.town/smel-000
 
 ## Prior art
 * https://github.com/unconed/TermKit
