@@ -8,6 +8,7 @@
 * https://github.com/oilshell/oil/wiki/Interactive-Shell
 * https://project-mage.org/the-power-of-structure#orgecfa2cc
 * https://taylor.town/smel-000
+* https://github.com/ferdinandyb/dotfiles/blob/5800e68b0c44d6d0573c41a6a344b50720ccb2e0/.config/contour/retirethemiddleman.md
 
 ## Prior art
 * https://github.com/unconed/TermKit
@@ -22,8 +23,6 @@
 * https://news.ycombinator.com/item?id=26530527
 * https://www.youtube.com/watch?v=dP1xVpMPn8M
 * https://www.youtube.com/watch?v=sqHY3YDGj80
-* 
-
 
 ## features
 * excel-like dependency graph through pipes
@@ -42,6 +41,10 @@
 * notes, like jupyter
 * pagers and multiplexers shouldn't need to exist
 * https://news.ycombinator.com/item?id=39504072
+
+## implementation options
+* xtermjs
+    * [image rendering](https://github.com/jerch/xterm-addon-image/blob/c3f41e7cc8d86d73d070003b82c049fabe43cdaf/src/ImageRenderer.ts)
 
 ## pictures
 ![image](https://github.com/benwaffle/terminal/assets/1713819/9796cd61-8e2c-45e7-b4ae-c24ef8a10533)
