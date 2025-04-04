@@ -11,6 +11,7 @@
 * https://github.com/ferdinandyb/dotfiles/blob/5800e68b0c44d6d0573c41a6a344b50720ccb2e0/.config/contour/retirethemiddleman.md
 * https://phaazon.net/blog/development-environments
 * https://www.reddit.com/r/programming/comments/vlp76z/development_environments_discussion_about/
+* https://terminal.click/posts/2025/04/the-wizard-and-his-shell/
 
 ## Prior art
 * https://github.com/unconed/TermKit
