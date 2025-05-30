@@ -27,6 +27,7 @@
 * https://www.youtube.com/watch?v=dP1xVpMPn8M
 * https://www.youtube.com/watch?v=sqHY3YDGj80
 * https://extraterm.org/guide.html#the-show-command
+* https://www.xml.com/pub/2000/06/07/xmlterm/
 
 ## features
 * excel-like dependency graph through pipes
