@@ -12,6 +12,7 @@
 * https://phaazon.net/blog/development-environments
 * https://www.reddit.com/r/programming/comments/vlp76z/development_environments_discussion_about/
 * https://terminal.click/posts/2025/04/the-wizard-and-his-shell/
+* https://mastodon.social/@pid_eins/114618473677694301
 
 ## Prior art
 * https://github.com/unconed/TermKit
